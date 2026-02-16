@@ -1,0 +1,101 @@
+2026-02-11 11:47:17,008 - __main__ - INFO - ==================================================
+2026-02-11 11:47:17,008 - __main__ - INFO - Weather MCP Server Starting (HTTP Mode)...
+2026-02-11 11:47:17,009 - __main__ - INFO - Start time: 2026-02-11T11:47:17.008979
+2026-02-11 11:47:17,009 - __main__ - INFO - Authentication: DISABLED
+2026-02-11 11:47:17,009 - __main__ - INFO - ==================================================
+2026-02-11 11:47:17,017 - __main__ - INFO - Starting HTTP server on 0.0.0.0:8080
+2026-02-11 11:47:17,018 - __main__ - INFO - SSE endpoint: http://0.0.0.0:8080/sse
+2026-02-11 11:47:17,018 - __main__ - INFO - Health check: http://0.0.0.0:8080/health
+2026-02-11 11:47:17,018 - __main__ - INFO - Server is accessible from other devices on the network
+2026-02-11 11:47:17,020 - __main__ - INFO - Server started successfully!
+2026-02-11 11:48:15,132 - __main__ - INFO - ==================================================
+2026-02-11 11:48:15,133 - __main__ - INFO - Weather MCP Server Starting (HTTP Mode)...
+2026-02-11 11:48:15,133 - __main__ - INFO - Start time: 2026-02-11T11:48:15.133506
+2026-02-11 11:48:15,133 - __main__ - INFO - Authentication: DISABLED
+2026-02-11 11:48:15,133 - __main__ - INFO - ==================================================
+2026-02-11 11:48:15,134 - __main__ - INFO - Starting HTTP server on 0.0.0.0:8080
+2026-02-11 11:48:15,134 - __main__ - INFO - SSE endpoint: http://0.0.0.0:8080/sse
+2026-02-11 11:48:15,134 - __main__ - INFO - Health check: http://0.0.0.0:8080/health
+2026-02-11 11:48:15,135 - __main__ - INFO - Server is accessible from other devices on the network
+2026-02-11 13:03:33,877 - aiohttp.access - INFO - 127.0.0.1 [11/Feb/2026:13:03:33 +0530] "GET /health HTTP/1.1" 200 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+2026-02-11 13:03:34,065 - aiohttp.access - INFO - 127.0.0.1 [11/Feb/2026:13:03:34 +0530] "GET /favicon.ico HTTP/1.1" 404 174 "http://localhost:8080/health" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+2026-02-11 13:17:31,023 - __main__ - INFO - ==================================================
+2026-02-11 13:17:31,025 - __main__ - INFO - Weather MCP Server Starting (HTTP Mode)...
+2026-02-11 13:17:31,025 - __main__ - INFO - Start time: 2026-02-11T13:17:31.025824
+2026-02-11 13:17:31,026 - __main__ - INFO - Authentication: DISABLED
+2026-02-11 13:17:31,026 - __main__ - INFO - ==================================================
+2026-02-11 13:17:31,026 - __main__ - INFO - Starting HTTP server on 0.0.0.0:8080
+2026-02-11 13:17:31,026 - __main__ - INFO - SSE endpoint: http://0.0.0.0:8080/sse
+2026-02-11 13:17:31,026 - __main__ - INFO - Health check: http://0.0.0.0:8080/health
+2026-02-11 13:17:31,026 - __main__ - INFO - Server is accessible from other devices on the network
+2026-02-11 13:17:31,027 - __main__ - INFO - Server started successfully!
+2026-02-11 13:23:51,452 - aiohttp.access - INFO - 127.0.0.1 [11/Feb/2026:13:23:51 +0530] "GET /health HTTP/1.1" 200 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+2026-02-11 13:23:51,544 - aiohttp.access - INFO - 127.0.0.1 [11/Feb/2026:13:23:51 +0530] "GET /favicon.ico HTTP/1.1" 404 174 "http://127.0.0.1:8080/health" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+2026-02-11 13:27:59,353 - aiohttp.access - INFO - 192.168.153.164 [11/Feb/2026:13:27:59 +0530] "GET /health HTTP/1.1" 200 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+2026-02-11 13:27:59,449 - aiohttp.access - INFO - 192.168.153.164 [11/Feb/2026:13:27:59 +0530] "GET /favicon.ico HTTP/1.1" 404 174 "http://192.168.153.250:8080/health" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+2026-02-11 13:29:46,225 - aiohttp.access - INFO - 192.168.153.85 [11/Feb/2026:13:29:46 +0530] "GET /health HTTP/1.1" 200 248 "-" "curl/8.14.1"
+2026-02-11 13:30:39,551 - aiohttp.server - ERROR - Error handling request from 192.168.153.85
+Traceback (most recent call last):
+  File "C:\Users\Ishita\AppData\Roaming\Python\Python313\site-packages\aiohttp\web_protocol.py", line 510, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishita\AppData\Roaming\Python\Python313\site-packages\aiohttp\web_app.py", line 569, in _handle
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\workspaces\vscode\aiml\weather_server_http.py", line 158, in handle_sse
+    async with sse.connect_sse(
+               ~~~~~~~~~~~~~~~^
+        request.headers.get("Accept"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        request.headers
+        ^^^^^^^^^^^^^^^
+    ) as streams:
+    ^
+  File "C:\Python313\Lib\contextlib.py", line 338, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+  File "C:\Python313\Lib\contextlib.py", line 109, in __init__
+    self.gen = func(*args, **kwds)
+               ~~~~^^^^^^^^^^^^^^^
+TypeError: SseServerTransport.connect_sse() missing 1 required positional argument: 'send'
+2026-02-11 13:30:39,555 - aiohttp.access - INFO - 192.168.153.85 [11/Feb/2026:13:30:39 +0530] "GET /sse HTTP/1.1" 500 246 "-" "curl/8.14.1"
+2026-02-11 13:32:53,238 - __main__ - INFO - Weather MCP Server shutting down
+2026-02-11 13:32:56,838 - __main__ - INFO - ==================================================
+2026-02-11 13:32:56,839 - __main__ - INFO - Weather MCP Server Starting (HTTP Mode)...
+2026-02-11 13:32:56,839 - __main__ - INFO - Start time: 2026-02-11T13:32:56.839279
+2026-02-11 13:32:56,839 - __main__ - INFO - Authentication: DISABLED
+2026-02-11 13:32:56,839 - __main__ - INFO - ==================================================
+2026-02-11 13:32:56,839 - __main__ - INFO - Starting HTTP server on 0.0.0.0:8080
+2026-02-11 13:32:56,839 - __main__ - INFO - SSE endpoint: http://0.0.0.0:8080/sse
+2026-02-11 13:32:56,840 - __main__ - INFO - Health check: http://0.0.0.0:8080/health
+2026-02-11 13:32:56,840 - __main__ - INFO - Server is accessible from other devices on the network
+2026-02-11 13:32:56,840 - __main__ - INFO - Server started successfully!
+2026-02-11 13:33:38,565 - __main__ - INFO - Weather MCP Server shutting down
+2026-02-11 13:33:48,316 - __main__ - INFO - ==================================================
+2026-02-11 13:33:48,316 - __main__ - INFO - Weather MCP Server Starting (HTTP Mode)...
+2026-02-11 13:33:48,316 - __main__ - INFO - Start time: 2026-02-11T13:33:48.316915
+2026-02-11 13:33:48,317 - __main__ - INFO - Authentication: DISABLED
+2026-02-11 13:33:48,317 - __main__ - INFO - ==================================================
+2026-02-11 13:33:48,317 - __main__ - INFO - Starting HTTP server on 0.0.0.0:8080
+2026-02-11 13:33:48,317 - __main__ - INFO - SSE endpoint: http://0.0.0.0:8080/sse
+2026-02-11 13:33:48,317 - __main__ - INFO - Health check: http://0.0.0.0:8080/health
+2026-02-11 13:33:48,317 - __main__ - INFO - Server is accessible from other devices on the network
+2026-02-11 13:33:48,318 - __main__ - INFO - Server started successfully!
+2026-02-11 13:33:56,829 - aiohttp.access - INFO - 192.168.153.85 [11/Feb/2026:13:33:56 +0530] "GET /messages HTTP/1.1" 405 205 "-" "curl/8.14.1"
+2026-02-11 14:28:24,216 - __main__ - INFO - Weather MCP Server shutting down
+2026-02-11 14:28:26,777 - __main__ - INFO - ==================================================
+2026-02-11 14:28:26,778 - __main__ - INFO - Weather Server Starting (HTTP Mode)...
+2026-02-11 14:28:26,778 - __main__ - INFO - Start time: 2026-02-11T14:28:26.778478
+2026-02-11 14:28:26,778 - __main__ - INFO - ==================================================
+2026-02-11 14:28:26,779 - __main__ - INFO - Starting HTTP server on 0.0.0.0:8080
+2026-02-11 14:28:26,779 - __main__ - INFO - Endpoints:
+2026-02-11 14:28:26,779 - __main__ - INFO -   - http://0.0.0.0:8080/health - Health check
+2026-02-11 14:28:26,780 - __main__ - INFO -   - http://0.0.0.0:8080/weather - Get weather (POST/GET)
+2026-02-11 14:28:26,780 - __main__ - INFO - Server is accessible from other devices on the network
+2026-02-11 14:28:26,781 - __main__ - INFO - Server started successfully!
+2026-02-11 14:37:51,392 - aiohttp.access - INFO - 192.168.184.85 [11/Feb/2026:14:37:51 +0530] "GET /tools HTTP/1.1" 404 174 "-" "curl/8.14.1"
+2026-02-11 14:47:28,148 - aiohttp.access - INFO - 192.168.184.85 [11/Feb/2026:14:47:28 +0530] "GET / HTTP/1.0" 404 174 "-" "-"
+2026-02-11 14:47:28,289 - aiohttp.access - INFO - 192.168.184.85 [11/Feb/2026:14:47:28 +0530] "OPTIONS / HTTP/1.0" 404 174 "-" "-"
+2026-02-11 14:47:49,998 - aiohttp.access - INFO - 192.168.184.85 [11/Feb/2026:14:47:49 +0530] "POST /call HTTP/1.1" 404 174 "-" "curl/8.14.1"
+2026-02-11 14:48:38,030 - aiohttp.access - INFO - 192.168.184.85 [11/Feb/2026:14:48:38 +0530] "POST /call HTTP/1.1" 404 174 "-" "curl/8.14.1"
+2026-02-11 15:30:37,304 - aiohttp.access - INFO - 192.168.184.85 [11/Feb/2026:15:30:37 +0530] "POST /call HTTP/1.1" 404 174 "-" "curl/8.14.1"
+2026-02-11 15:56:51,918 - __main__ - INFO - Weather Server shutting down

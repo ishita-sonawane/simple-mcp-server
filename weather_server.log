@@ -1,0 +1,427 @@
+2026-02-05 13:11:34,616 - __main__ - INFO - ==================================================
+2026-02-05 13:11:34,616 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-05 13:11:34,617 - __main__ - INFO - Start time: 2026-02-05T13:11:34.617181
+2026-02-05 13:11:34,617 - __main__ - INFO - ==================================================
+2026-02-05 13:11:34,623 - __main__ - INFO - Server initialized successfully
+2026-02-05 13:11:34,623 - __main__ - INFO - Waiting for client connections...
+2026-02-05 13:11:34,874 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-05 13:18:21,161 - __main__ - INFO - ==================================================
+2026-02-05 13:18:21,162 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-05 13:18:21,162 - __main__ - INFO - Start time: 2026-02-05T13:18:21.162634
+2026-02-05 13:18:21,162 - __main__ - INFO - ==================================================
+2026-02-05 13:18:21,168 - __main__ - INFO - Server initialized successfully
+2026-02-05 13:18:21,168 - __main__ - INFO - Waiting for client connections...
+2026-02-05 13:18:21,361 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-05 14:23:12,717 - __main__ - INFO - ==================================================
+2026-02-05 14:23:12,718 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-05 14:23:12,718 - __main__ - INFO - Start time: 2026-02-05T14:23:12.718405
+2026-02-05 14:23:12,718 - __main__ - INFO - ==================================================
+2026-02-05 14:23:12,724 - __main__ - INFO - Server initialized successfully
+2026-02-05 14:23:12,724 - __main__ - INFO - Waiting for client connections...
+2026-02-05 14:23:13,094 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-05 14:23:13,094 - __main__ - INFO - Client requested list of available tools
+2026-02-05 14:31:16,274 - __main__ - INFO - ==================================================
+2026-02-05 14:31:16,274 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-05 14:31:16,274 - __main__ - INFO - Start time: 2026-02-05T14:31:16.274487
+2026-02-05 14:31:16,274 - __main__ - INFO - ==================================================
+2026-02-05 14:31:16,280 - __main__ - INFO - Server initialized successfully
+2026-02-05 14:31:16,280 - __main__ - INFO - Waiting for client connections...
+2026-02-05 14:31:16,375 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-05 14:31:16,376 - __main__ - INFO - Client requested list of available tools
+2026-02-05 17:01:45,910 - __main__ - INFO - ==================================================
+2026-02-05 17:01:45,911 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-05 17:01:45,911 - __main__ - INFO - Start time: 2026-02-05T17:01:45.911312
+2026-02-05 17:01:45,911 - __main__ - INFO - ==================================================
+2026-02-05 17:01:45,917 - __main__ - INFO - Server initialized successfully
+2026-02-05 17:01:45,918 - __main__ - INFO - Waiting for client connections...
+2026-02-05 17:01:45,930 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-05 17:01:45,930 - __main__ - INFO - Client requested list of available tools
+2026-02-05 21:41:42,880 - __main__ - INFO - ==================================================
+2026-02-05 21:41:42,881 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-05 21:41:42,881 - __main__ - INFO - Start time: 2026-02-05T21:41:42.881315
+2026-02-05 21:41:42,881 - __main__ - INFO - ==================================================
+2026-02-05 21:41:42,890 - __main__ - INFO - Server initialized successfully
+2026-02-05 21:41:42,890 - __main__ - INFO - Waiting for client connections...
+2026-02-05 21:41:42,913 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-05 21:41:42,913 - __main__ - INFO - Client requested list of available tools
+2026-02-05 22:20:14,945 - __main__ - INFO - ==================================================
+2026-02-05 22:20:14,946 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-05 22:20:14,946 - __main__ - INFO - Start time: 2026-02-05T22:20:14.946386
+2026-02-05 22:20:14,946 - __main__ - INFO - ==================================================
+2026-02-05 22:20:14,953 - __main__ - INFO - Server initialized successfully
+2026-02-05 22:20:14,953 - __main__ - INFO - Waiting for client connections...
+2026-02-05 22:20:15,103 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-05 22:20:15,103 - __main__ - INFO - Client requested list of available tools
+2026-02-06 11:26:48,725 - __main__ - INFO - ==================================================
+2026-02-06 11:26:48,726 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-06 11:26:48,726 - __main__ - INFO - Start time: 2026-02-06T11:26:48.726284
+2026-02-06 11:26:48,726 - __main__ - INFO - ==================================================
+2026-02-06 11:26:48,732 - __main__ - INFO - Server initialized successfully
+2026-02-06 11:26:48,733 - __main__ - INFO - Waiting for client connections...
+2026-02-06 11:26:48,760 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-06 11:26:48,760 - __main__ - INFO - Client requested list of available tools
+2026-02-07 09:44:22,821 - __main__ - INFO - ==================================================
+2026-02-07 09:44:22,822 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 09:44:22,822 - __main__ - INFO - Start time: 2026-02-07T09:44:22.822354
+2026-02-07 09:44:22,822 - __main__ - INFO - ==================================================
+2026-02-07 09:44:22,841 - __main__ - INFO - Server initialized successfully
+2026-02-07 09:44:22,841 - __main__ - INFO - Waiting for client connections...
+2026-02-07 09:44:23,165 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 09:44:23,166 - __main__ - INFO - Client requested list of available tools
+2026-02-07 10:22:23,426 - __main__ - INFO - ==================================================
+2026-02-07 10:22:23,426 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 10:22:23,426 - __main__ - INFO - Start time: 2026-02-07T10:22:23.426671
+2026-02-07 10:22:23,426 - __main__ - INFO - ==================================================
+2026-02-07 10:22:23,432 - __main__ - INFO - Server initialized successfully
+2026-02-07 10:22:23,433 - __main__ - INFO - Waiting for client connections...
+2026-02-07 10:22:23,445 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 10:22:23,445 - __main__ - INFO - Client requested list of available tools
+2026-02-07 10:23:28,416 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 10:23:28,419 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 10:23:28,419 - __main__ - INFO - Fetching weather data for city: Berlin
+2026-02-07 10:23:28,525 - __main__ - INFO - API response status: 200
+2026-02-07 10:23:28,526 - __main__ - INFO - Successfully retrieved weather for Berlin: 33.71°F, mist
+2026-02-07 10:24:16,740 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 10:24:16,742 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'xyzvalidcity'}
+2026-02-07 10:24:16,742 - __main__ - INFO - Fetching weather data for city: xyzvalidcity
+2026-02-07 10:24:17,019 - __main__ - INFO - API response status: 404
+2026-02-07 10:24:17,019 - __main__ - ERROR - API request failed: {"cod":"404","message":"city not found"}
+2026-02-07 10:24:17,020 - __main__ - ERROR - Error fetching weather for xyzvalidcity: Weather API returned status 404
+Traceback (most recent call last):
+  File "D:\workspaces\vscode\aiml\weather_server.py", line 94, in call_tool
+    raise Exception(f"Weather API returned status {response.status}")
+Exception: Weather API returned status 404
+2026-02-07 10:37:49,002 - __main__ - INFO - ==================================================
+2026-02-07 10:37:49,002 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 10:37:49,002 - __main__ - INFO - Start time: 2026-02-07T10:37:49.002596
+2026-02-07 10:37:49,002 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 10:37:49,002 - __main__ - INFO - ==================================================
+2026-02-07 10:37:49,007 - __main__ - INFO - Server initialized successfully
+2026-02-07 10:37:49,007 - __main__ - INFO - Waiting for client connections...
+2026-02-07 10:37:49,207 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 10:37:49,207 - __main__ - INFO - Client requested list of available tools
+2026-02-07 10:38:36,077 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 10:38:36,079 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 10:38:36,079 - __main__ - WARNING - Authentication failed: No token provided
+2026-02-07 10:38:36,079 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-07 10:39:49,294 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 10:39:49,296 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 10:39:49,296 - __main__ - WARNING - Authentication failed: No token provided
+2026-02-07 10:39:49,296 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-07 10:45:55,039 - __main__ - INFO - ==================================================
+2026-02-07 10:45:55,040 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 10:45:55,040 - __main__ - INFO - Start time: 2026-02-07T10:45:55.040406
+2026-02-07 10:45:55,040 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 10:45:55,040 - __main__ - INFO - ==================================================
+2026-02-07 10:45:55,044 - __main__ - INFO - Server initialized successfully
+2026-02-07 10:45:55,044 - __main__ - INFO - Waiting for client connections...
+2026-02-07 10:45:55,218 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 10:45:55,218 - __main__ - INFO - Client requested list of available tools
+2026-02-07 10:46:18,688 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 10:46:18,690 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 10:46:18,690 - __main__ - WARNING - Authentication failed: No token provided
+2026-02-07 10:46:18,690 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-07 10:49:30,159 - __main__ - INFO - ==================================================
+2026-02-07 10:49:30,160 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 10:49:30,160 - __main__ - INFO - Start time: 2026-02-07T10:49:30.160269
+2026-02-07 10:49:30,160 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 10:49:30,160 - __main__ - INFO - ==================================================
+2026-02-07 10:49:30,165 - __main__ - INFO - Server initialized successfully
+2026-02-07 10:49:30,165 - __main__ - INFO - Waiting for client connections...
+2026-02-07 10:49:30,332 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 10:49:30,332 - __main__ - INFO - Client requested list of available tools
+2026-02-07 10:49:43,814 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 10:49:43,816 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 10:49:43,817 - __main__ - WARNING - Authentication failed: No token provided
+2026-02-07 10:49:43,817 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-07 10:52:36,061 - __main__ - INFO - ==================================================
+2026-02-07 10:52:36,062 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 10:52:36,062 - __main__ - INFO - Start time: 2026-02-07T10:52:36.062157
+2026-02-07 10:52:36,062 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 10:52:36,062 - __main__ - INFO - ==================================================
+2026-02-07 10:52:36,066 - __main__ - INFO - Server initialized successfully
+2026-02-07 10:52:36,066 - __main__ - INFO - Waiting for client connections...
+2026-02-07 10:52:36,168 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 10:52:36,168 - __main__ - INFO - Client requested list of available tools
+2026-02-07 10:52:53,999 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 10:52:54,001 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 10:52:54,001 - __main__ - WARNING - Authentication failed: No token provided
+2026-02-07 10:52:54,001 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-07 10:59:30,467 - __main__ - INFO - Weather MCP Server shutting down
+2026-02-07 10:59:42,620 - __main__ - INFO - ==================================================
+2026-02-07 10:59:42,620 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 10:59:42,621 - __main__ - INFO - Start time: 2026-02-07T10:59:42.621010
+2026-02-07 10:59:42,621 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 10:59:42,621 - __main__ - INFO - ==================================================
+2026-02-07 10:59:42,625 - __main__ - INFO - Server initialized successfully
+2026-02-07 10:59:42,625 - __main__ - INFO - Waiting for client connections...
+2026-02-07 10:59:42,770 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 10:59:42,770 - __main__ - INFO - Client requested list of available tools
+2026-02-07 11:00:27,687 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 11:00:27,689 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 11:00:27,689 - __main__ - WARNING - Authentication failed: No token provided 1234:None
+2026-02-07 11:00:27,689 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-07 11:05:16,495 - __main__ - INFO - Weather MCP Server shutting down
+2026-02-07 11:05:32,307 - __main__ - INFO - ==================================================
+2026-02-07 11:05:32,307 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 11:05:32,307 - __main__ - INFO - Start time: 2026-02-07T11:05:32.307304
+2026-02-07 11:05:32,307 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 11:05:32,307 - __main__ - INFO - ==================================================
+2026-02-07 11:05:32,311 - __main__ - INFO - Server initialized successfully
+2026-02-07 11:05:32,311 - __main__ - INFO - Waiting for client connections...
+2026-02-07 11:05:32,496 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 11:05:32,496 - __main__ - INFO - Client requested list of available tools
+2026-02-07 11:08:00,619 - __main__ - INFO - ==================================================
+2026-02-07 11:08:00,619 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 11:08:00,619 - __main__ - INFO - Start time: 2026-02-07T11:08:00.619622
+2026-02-07 11:08:00,619 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 11:08:00,619 - __main__ - INFO - ==================================================
+2026-02-07 11:08:00,624 - __main__ - INFO - Server initialized successfully
+2026-02-07 11:08:00,624 - __main__ - INFO - Waiting for client connections...
+2026-02-07 11:08:00,857 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 11:08:00,858 - __main__ - INFO - Client requested list of available tools
+2026-02-07 11:08:25,737 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 11:08:25,738 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin'}
+2026-02-07 11:08:25,738 - __main__ - WARNING - Authentication failed: No token provided 1234:None
+2026-02-07 11:08:25,738 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-07 11:12:42,693 - __main__ - INFO - ==================================================
+2026-02-07 11:12:42,694 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 11:12:42,694 - __main__ - INFO - Start time: 2026-02-07T11:12:42.694244
+2026-02-07 11:12:42,694 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 11:12:42,694 - __main__ - INFO - ==================================================
+2026-02-07 11:12:42,698 - __main__ - INFO - Server initialized successfully
+2026-02-07 11:12:42,698 - __main__ - INFO - Waiting for client connections...
+2026-02-07 11:12:42,879 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 11:12:42,879 - __main__ - INFO - Client requested list of available tools
+2026-02-07 11:13:04,775 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 11:13:55,762 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 11:13:55,763 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'auth_token': '1234', 'city': 'Berlin'}
+2026-02-07 11:13:55,763 - __main__ - INFO - Authentication successful
+2026-02-07 11:13:55,764 - __main__ - INFO - Fetching weather data for city: Berlin
+2026-02-07 11:13:55,829 - __main__ - INFO - API response status: 200
+2026-02-07 11:13:55,830 - __main__ - INFO - Successfully retrieved weather for Berlin: 33.44°F, mist
+2026-02-07 11:16:31,150 - __main__ - INFO - ==================================================
+2026-02-07 11:16:31,151 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 11:16:31,151 - __main__ - INFO - Start time: 2026-02-07T11:16:31.151176
+2026-02-07 11:16:31,151 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 11:16:31,151 - __main__ - INFO - ==================================================
+2026-02-07 11:16:31,157 - __main__ - INFO - Server initialized successfully
+2026-02-07 11:16:31,157 - __main__ - INFO - Waiting for client connections...
+2026-02-07 11:16:31,312 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 11:16:31,313 - __main__ - INFO - Client requested list of available tools
+2026-02-07 11:16:57,083 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 11:16:57,084 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'auth_token': '1234', 'city': 'Berlin'}
+2026-02-07 11:16:57,085 - __main__ - INFO - Authentication successful
+2026-02-07 11:16:57,085 - __main__ - INFO - Fetching weather data for city: Berlin
+2026-02-07 11:16:57,128 - __main__ - INFO - API response status: 200
+2026-02-07 11:16:57,129 - __main__ - INFO - Successfully retrieved weather for Berlin: 33.44°F, mist
+2026-02-07 11:19:56,812 - __main__ - INFO - ==================================================
+2026-02-07 11:19:56,812 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-07 11:19:56,813 - __main__ - INFO - Start time: 2026-02-07T11:19:56.813001
+2026-02-07 11:19:56,813 - __main__ - INFO - Authentication: ENABLED
+2026-02-07 11:19:56,813 - __main__ - INFO - ==================================================
+2026-02-07 11:19:56,817 - __main__ - INFO - Server initialized successfully
+2026-02-07 11:19:56,817 - __main__ - INFO - Waiting for client connections...
+2026-02-07 11:19:56,977 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-07 11:19:56,977 - __main__ - INFO - Client requested list of available tools
+2026-02-07 11:20:24,217 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-07 11:20:24,219 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'auth_token': '1234', 'city': 'Berlin'}
+2026-02-07 11:20:24,219 - __main__ - INFO - Authentication successful
+2026-02-07 11:20:24,219 - __main__ - INFO - Fetching weather data for city: Berlin
+2026-02-07 11:20:24,269 - __main__ - INFO - API response status: 200
+2026-02-07 11:20:24,270 - __main__ - INFO - Successfully retrieved weather for Berlin: 33.44°F, mist
+2026-02-08 09:14:44,203 - __main__ - INFO - ==================================================
+2026-02-08 09:14:44,204 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-08 09:14:44,204 - __main__ - INFO - Start time: 2026-02-08T09:14:44.204166
+2026-02-08 09:14:44,204 - __main__ - INFO - Authentication: ENABLED
+2026-02-08 09:14:44,204 - __main__ - INFO - ==================================================
+2026-02-08 09:14:44,211 - __main__ - INFO - Server initialized successfully
+2026-02-08 09:14:44,211 - __main__ - INFO - Waiting for client connections...
+2026-02-08 09:14:44,226 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-08 09:14:44,226 - __main__ - INFO - Client requested list of available tools
+2026-02-08 16:30:09,251 - __main__ - INFO - ==================================================
+2026-02-08 16:30:09,251 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-08 16:30:09,251 - __main__ - INFO - Start time: 2026-02-08T16:30:09.251839
+2026-02-08 16:30:09,251 - __main__ - INFO - Authentication: ENABLED
+2026-02-08 16:30:09,251 - __main__ - INFO - ==================================================
+2026-02-08 16:30:09,257 - __main__ - INFO - Server initialized successfully
+2026-02-08 16:30:09,257 - __main__ - INFO - Waiting for client connections...
+2026-02-08 16:30:09,266 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-08 16:30:09,266 - __main__ - INFO - Client requested list of available tools
+2026-02-08 16:45:30,302 - __main__ - INFO - ==================================================
+2026-02-08 16:45:30,303 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-08 16:45:30,303 - __main__ - INFO - Start time: 2026-02-08T16:45:30.303167
+2026-02-08 16:45:30,303 - __main__ - INFO - Authentication: ENABLED
+2026-02-08 16:45:30,303 - __main__ - INFO - ==================================================
+2026-02-08 16:45:30,308 - __main__ - INFO - Server initialized successfully
+2026-02-08 16:45:30,308 - __main__ - INFO - Waiting for client connections...
+2026-02-08 16:45:30,318 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-08 16:45:30,318 - __main__ - INFO - Client requested list of available tools
+2026-02-09 11:02:53,277 - __main__ - INFO - ==================================================
+2026-02-09 11:02:53,278 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 11:02:53,278 - __main__ - INFO - Start time: 2026-02-09T11:02:53.278637
+2026-02-09 11:02:53,278 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 11:02:53,278 - __main__ - INFO - ==================================================
+2026-02-09 11:02:53,283 - __main__ - INFO - Server initialized successfully
+2026-02-09 11:02:53,283 - __main__ - INFO - Waiting for client connections...
+2026-02-09 11:02:53,302 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 11:02:53,302 - __main__ - INFO - Client requested list of available tools
+2026-02-09 14:07:11,067 - __main__ - INFO - ==================================================
+2026-02-09 14:07:11,067 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 14:07:11,067 - __main__ - INFO - Start time: 2026-02-09T14:07:11.067523
+2026-02-09 14:07:11,067 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 14:07:11,067 - __main__ - INFO - ==================================================
+2026-02-09 14:07:11,074 - __main__ - INFO - Server initialized successfully
+2026-02-09 14:07:11,075 - __main__ - INFO - Waiting for client connections...
+2026-02-09 14:07:11,302 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 14:07:11,302 - __main__ - INFO - Client requested list of available tools
+2026-02-09 14:42:01,510 - __main__ - INFO - ==================================================
+2026-02-09 14:42:01,510 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 14:42:01,511 - __main__ - INFO - Start time: 2026-02-09T14:42:01.511857
+2026-02-09 14:42:01,512 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 14:42:01,512 - __main__ - INFO - ==================================================
+2026-02-09 14:42:01,518 - __main__ - INFO - Server initialized successfully
+2026-02-09 14:42:01,518 - __main__ - INFO - Waiting for client connections...
+2026-02-09 14:42:01,530 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 14:42:01,531 - __main__ - INFO - Client requested list of available tools
+2026-02-09 14:50:43,868 - __main__ - INFO - ==================================================
+2026-02-09 14:50:43,868 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 14:50:43,868 - __main__ - INFO - Start time: 2026-02-09T14:50:43.868911
+2026-02-09 14:50:43,869 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 14:50:43,869 - __main__ - INFO - ==================================================
+2026-02-09 14:50:43,875 - __main__ - INFO - Server initialized successfully
+2026-02-09 14:50:43,875 - __main__ - INFO - Waiting for client connections...
+2026-02-09 14:50:44,046 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 14:50:44,046 - __main__ - INFO - Client requested list of available tools
+2026-02-09 14:56:28,482 - __main__ - INFO - ==================================================
+2026-02-09 14:56:28,483 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 14:56:28,483 - __main__ - INFO - Start time: 2026-02-09T14:56:28.483261
+2026-02-09 14:56:28,483 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 14:56:28,483 - __main__ - INFO - ==================================================
+2026-02-09 14:56:28,490 - __main__ - INFO - Server initialized successfully
+2026-02-09 14:56:28,490 - __main__ - INFO - Waiting for client connections...
+2026-02-09 14:56:28,902 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 14:56:28,902 - __main__ - INFO - Client requested list of available tools
+2026-02-09 15:03:29,973 - __main__ - INFO - ==================================================
+2026-02-09 15:03:29,973 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 15:03:29,973 - __main__ - INFO - Start time: 2026-02-09T15:03:29.973911
+2026-02-09 15:03:29,974 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 15:03:29,974 - __main__ - INFO - ==================================================
+2026-02-09 15:03:29,980 - __main__ - INFO - Server initialized successfully
+2026-02-09 15:03:29,980 - __main__ - INFO - Waiting for client connections...
+2026-02-09 15:03:30,156 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 15:03:30,157 - __main__ - INFO - Client requested list of available tools
+2026-02-09 15:06:22,944 - __main__ - INFO - ==================================================
+2026-02-09 15:06:22,944 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 15:06:22,945 - __main__ - INFO - Start time: 2026-02-09T15:06:22.945052
+2026-02-09 15:06:22,945 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 15:06:22,945 - __main__ - INFO - ==================================================
+2026-02-09 15:06:22,951 - __main__ - INFO - Server initialized successfully
+2026-02-09 15:06:22,951 - __main__ - INFO - Waiting for client connections...
+2026-02-09 15:06:23,093 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 15:06:23,093 - __main__ - INFO - Client requested list of available tools
+2026-02-09 15:09:09,771 - __main__ - INFO - ==================================================
+2026-02-09 15:09:09,771 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 15:09:09,772 - __main__ - INFO - Start time: 2026-02-09T15:09:09.772119
+2026-02-09 15:09:09,772 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 15:09:09,772 - __main__ - INFO - ==================================================
+2026-02-09 15:09:09,779 - __main__ - INFO - Server initialized successfully
+2026-02-09 15:09:09,779 - __main__ - INFO - Waiting for client connections...
+2026-02-09 15:09:09,930 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 15:09:09,930 - __main__ - INFO - Client requested list of available tools
+2026-02-09 15:20:51,173 - __main__ - INFO - ==================================================
+2026-02-09 15:20:51,173 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-09 15:20:51,173 - __main__ - INFO - Start time: 2026-02-09T15:20:51.173932
+2026-02-09 15:20:51,174 - __main__ - INFO - Authentication: ENABLED
+2026-02-09 15:20:51,174 - __main__ - INFO - ==================================================
+2026-02-09 15:20:51,181 - __main__ - INFO - Server initialized successfully
+2026-02-09 15:20:51,181 - __main__ - INFO - Waiting for client connections...
+2026-02-09 15:20:51,191 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-09 15:20:51,191 - __main__ - INFO - Client requested list of available tools
+2026-02-10 11:15:31,603 - __main__ - INFO - ==================================================
+2026-02-10 11:15:31,604 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-10 11:15:31,604 - __main__ - INFO - Start time: 2026-02-10T11:15:31.604102
+2026-02-10 11:15:31,604 - __main__ - INFO - Authentication: ENABLED
+2026-02-10 11:15:31,604 - __main__ - INFO - ==================================================
+2026-02-10 11:15:31,609 - __main__ - INFO - Server initialized successfully
+2026-02-10 11:15:31,609 - __main__ - INFO - Waiting for client connections...
+2026-02-10 11:15:31,736 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-10 11:15:31,736 - __main__ - INFO - Client requested list of available tools
+2026-02-10 12:30:05,436 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-10 12:30:05,442 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin', 'auth_token': ''}
+2026-02-10 12:30:05,443 - __main__ - WARNING - Authentication failed: No token provided 1234:
+2026-02-10 12:30:05,443 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-10 13:25:08,394 - __main__ - INFO - ==================================================
+2026-02-10 13:25:08,395 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-10 13:25:08,395 - __main__ - INFO - Start time: 2026-02-10T13:25:08.395323
+2026-02-10 13:25:08,395 - __main__ - INFO - Authentication: ENABLED
+2026-02-10 13:25:08,395 - __main__ - INFO - ==================================================
+2026-02-10 13:25:08,399 - __main__ - INFO - Server initialized successfully
+2026-02-10 13:25:08,400 - __main__ - INFO - Waiting for client connections...
+2026-02-10 13:25:08,439 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-10 13:25:08,439 - __main__ - INFO - Client requested list of available tools
+2026-02-10 13:27:36,309 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-10 13:27:36,313 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin', 'auth_token': ''}
+2026-02-10 13:27:36,313 - __main__ - WARNING - Authentication failed: No token provided 1234:
+2026-02-10 13:27:36,313 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-10 13:31:09,138 - __main__ - INFO - ==================================================
+2026-02-10 13:31:09,138 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-10 13:31:09,138 - __main__ - INFO - Start time: 2026-02-10T13:31:09.138709
+2026-02-10 13:31:09,138 - __main__ - INFO - Authentication: DISABLED
+2026-02-10 13:31:09,138 - __main__ - INFO - ==================================================
+2026-02-10 13:31:09,145 - __main__ - INFO - Server initialized successfully
+2026-02-10 13:31:09,145 - __main__ - INFO - Waiting for client connections...
+2026-02-10 13:31:09,472 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-10 13:31:09,472 - __main__ - INFO - Client requested list of available tools
+2026-02-10 13:32:55,144 - __main__ - INFO - ==================================================
+2026-02-10 13:32:55,144 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-10 13:32:55,144 - __main__ - INFO - Start time: 2026-02-10T13:32:55.144959
+2026-02-10 13:32:55,145 - __main__ - INFO - Authentication: ENABLED
+2026-02-10 13:32:55,145 - __main__ - INFO - ==================================================
+2026-02-10 13:32:55,150 - __main__ - INFO - Server initialized successfully
+2026-02-10 13:32:55,151 - __main__ - INFO - Waiting for client connections...
+2026-02-10 13:32:55,300 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-10 13:32:55,300 - __main__ - INFO - Client requested list of available tools
+2026-02-10 13:33:43,341 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-10 13:33:43,344 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin', 'auth_token': ''}
+2026-02-10 13:33:43,344 - __main__ - WARNING - Authentication failed: No token provided 1234:
+2026-02-10 13:33:43,344 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-10 15:46:26,945 - __main__ - INFO - ==================================================
+2026-02-10 15:46:26,945 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-10 15:46:26,946 - __main__ - INFO - Start time: 2026-02-10T15:46:26.946190
+2026-02-10 15:46:26,946 - __main__ - INFO - Authentication: ENABLED
+2026-02-10 15:46:26,946 - __main__ - INFO - ==================================================
+2026-02-10 15:46:26,953 - __main__ - INFO - Server initialized successfully
+2026-02-10 15:46:26,954 - __main__ - INFO - Waiting for client connections...
+2026-02-10 15:49:40,554 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-02-10 15:49:40,557 - __main__ - INFO - Tool called: 'get_weather' with arguments: {'city': 'Berlin', 'auth_token': ''}
+2026-02-10 15:49:40,557 - __main__ - WARNING - Authentication failed: No token provided 1234:
+2026-02-10 15:49:40,557 - __main__ - ERROR - Authentication failed for tool 'get_weather'
+2026-02-10 21:21:05,289 - __main__ - INFO - Weather MCP Server shutting down
+2026-02-11 13:09:17,498 - __main__ - INFO - ==================================================
+2026-02-11 13:09:17,498 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-11 13:09:17,499 - __main__ - INFO - Start time: 2026-02-11T13:09:17.499055
+2026-02-11 13:09:17,499 - __main__ - INFO - Authentication: ENABLED
+2026-02-11 13:09:17,499 - __main__ - INFO - ==================================================
+2026-02-11 13:09:17,505 - __main__ - INFO - Server initialized successfully
+2026-02-11 13:09:17,505 - __main__ - INFO - Waiting for client connections...
+2026-02-11 13:09:17,517 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-11 13:09:17,517 - __main__ - INFO - Client requested list of available tools
+2026-02-12 11:15:07,366 - __main__ - INFO - ==================================================
+2026-02-12 11:15:07,366 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-12 11:15:07,366 - __main__ - INFO - Start time: 2026-02-12T11:15:07.366720
+2026-02-12 11:15:07,366 - __main__ - INFO - Authentication: ENABLED
+2026-02-12 11:15:07,366 - __main__ - INFO - ==================================================
+2026-02-12 11:15:07,373 - __main__ - INFO - Server initialized successfully
+2026-02-12 11:15:07,373 - __main__ - INFO - Waiting for client connections...
+2026-02-12 11:15:08,104 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-12 11:15:08,104 - __main__ - INFO - Client requested list of available tools
+2026-02-12 11:45:40,419 - __main__ - INFO - ==================================================
+2026-02-12 11:45:40,419 - __main__ - INFO - Weather MCP Server Starting...
+2026-02-12 11:45:40,420 - __main__ - INFO - Start time: 2026-02-12T11:45:40.420106
+2026-02-12 11:45:40,420 - __main__ - INFO - Authentication: ENABLED
+2026-02-12 11:45:40,420 - __main__ - INFO - ==================================================
+2026-02-12 11:45:40,425 - __main__ - INFO - Server initialized successfully
+2026-02-12 11:45:40,426 - __main__ - INFO - Waiting for client connections...
+2026-02-12 11:45:40,438 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2026-02-12 11:45:40,439 - __main__ - INFO - Client requested list of available tools

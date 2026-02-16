@@ -1,0 +1,87 @@
++-------------------------+------------------+------+-----+---------+-------+
+| Field                   | Type             | Null | Key | Default | Req/Res
++-------------------------+------------------+------+-----+---------+-------+
+| PaymentReferenceID      | char(9)          | NO   | PRI | NULL    |Req    |
+| BeneficiaryId           | char(8)          | NO   |     | NULL    |Req    |
+| PaymentAmount           | decimal(11,2)    | NO   |     | NULL    |Req    |
+| CustomerId              | char(10)         | NO   |     | NULL    |Req    |
+| PayeeAccountNumber      | char(9)          | NO   |     | NULL    |Req    |
+| PaymentStatus           | varchar(10)      | YES  |     | NULL    |Res    |
+| PaymentMethod           | varchar(20)      | NO   |     | NULL    |Req    |
+| PaymentStatusReason     | varchar(50)      | YES  |     | NULL    |Res    |
+| PaymentType             | varchar(15)      | YES  |     | NULL    |Req    |
+| PaymentScheduleDate     | datetime         | YES  |     | NULL    |Req    |
+| RecurringPaymentDay     | tinyint unsigned | YES  |     | NULL    |Req    |
+| RecurringPaymentMonth   | varchar(15)      | YES  |     | NULL    |Req    |
+| RecurringPaymentEndDate | date             | YES  |     | NULL    |Req    |
+| RecurringPaymentNumber  | int              | YES  |     | NULL    |Req    |
++-------------------------+------------------+------+-----+---------+-------+
+
+package com.onlinebanking.domesticpayments.security;
+
+import io.jsonwebtoken.*;
+import io.jsonwebtoken.security.Keys;
+import org.springframework.stereotype.Component;
+
+import javax.crypto.SecretKey;
+import java.nio.charset.StandardCharsets;
+import java.security.Key;
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
+import java.util.Date;
+import java.security.KeyFactory;
+import java.security.PublicKey;
+import java.security.spec.X509EncodedKeySpec;
+import java.util.Base64;
+import java.util.HashMap;
+import java.util.Map;
+import static io.jsonwebtoken.Jwts.*;
+
+@Component
+public class JwtUtil {
+    private final String SECRET_KEY = "secret123secret123secret123secret123"; // at least 32 chars for HS256
+    private final long EXPIRATION = 1000 * 60 * 60; // 1 hour
+    private static final String PUBLIC_KEY_BASE64 = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJNt5DXZxOhP72DwAKg5fJ2tZYAsyVWZiw0EpXEsH1h6oGtjHRlOayLR66aKKuebn6wB4TofhPx4g9SslXbjTkfGPjEZCqrhmpwruAX863dRLJ8Yv19SM1tvGI6QQC85eKrhV5VJ1FNkajPTBXWg0kAWFW55WI3HqFoHB3Qb2mn84+21nMw4hQl3TpjR5HqEz4aOJY2WVlCr3daQ8rN7U0kwX/HyFcx0rJ6zHSSpgvG7yD99yDJ/EVdfi2tGSJrTLsnkc3n68zdIxUhTv8hIFr7WcyimWxh5Zohb2h4pYwTdT87TPf+5Mc+0zTqmHV5RWOzT0NRdlO8CfkcoZsroeQIDAQAB";
+
+    private Key getSigningKey() {
+        return Keys.hmacShaKeyFor(SECRET_KEY.getBytes(StandardCharsets.UTF_8));
+    }
+
+    public String generateToken(String username) {
+        return builder()
+                .setSubject(username)
+                .setIssuedAt(new Date())
+                .setExpiration(new Date(System.currentTimeMillis() + EXPIRATION))
+                .signWith(getSigningKey(), SignatureAlgorithm.HS256)
+                .compact();
+    }
+
+    public String extractUsername(String token) {
+        return getClaims(token).getBody().getSubject();
+    }
+
+    public boolean validateToken(String token) {
+        return !getClaims(token).getBody().getExpiration().before(new Date());
+    }
+
+
+    private Jws<Claims> getClaims(String token) {
+
+        return Jwts.parser()
+                .verifyWith(getPublicKey())
+                .build()
+                .parseSignedClaims(token);
+    }
+    private PublicKey getPublicKey()  {
+        byte[] keyBytes = Base64.getDecoder().decode(PUBLIC_KEY_BASE64);
+        X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
+        try {
+            return KeyFactory.getInstance("RSA").generatePublic(spec);
+        } catch (InvalidKeySpecException e) {
+            throw new RuntimeException(e);
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+}
