@@ -1,4 +1,1 @@
-mcp
-starlette
-uvicorn
-sse-starlette
+fastmcp
