@@ -425,3 +425,7 @@ Exception: Weather API returned status 404
 2026-02-12 11:45:40,426 - __main__ - INFO - Waiting for client connections...
 2026-02-12 11:45:40,438 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
 2026-02-12 11:45:40,439 - __main__ - INFO - Client requested list of available tools
+2026-02-17 15:44:20,704 - INFO - Weather MCP Server Starting (STDIO mode)
+2026-02-17 15:44:20,705 - INFO - Start time: 2026-02-17T15:44:20.705518
+2026-02-17 16:03:09,925 - INFO - Weather MCP Server Starting (STDIO mode)
+2026-02-17 16:03:09,926 - INFO - Start time: 2026-02-17T16:03:09.926503
