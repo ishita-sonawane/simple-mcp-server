@@ -1,36 +1,99 @@
 #!/usr/bin/env python3
 """
 Simple MCP Server - SSE Version for Render
-Compatible with Claude Desktop
+Compatible with remote access
 """
 
 import os
-from fastmcp import FastMCP
+import asyncio
+from mcp.server import Server
+from mcp.types import Tool, TextContent
+from mcp.server.sse import SseServerTransport
+from starlette.applications import Starlette
+from starlette.routing import Route
+from starlette.responses import Response
+import uvicorn
 
-# Create FastMCP server instance
-mcp = FastMCP("simple-mcp-sse")
+# Create server instance
+mcp_server = Server("simple-mcp-sse")
 
-@mcp.tool()
-def echo(text: str) -> str:
-    """Echo back the input text
+@mcp_server.list_tools()
+async def list_tools():
+    """List available tools"""
+    return [
+        Tool(
+            name="echo",
+            description="Echo back the input text",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "text": {
+                        "type": "string",
+                        "description": "Text to echo back"
+                    }
+                },
+                "required": ["text"]
+            }
+        ),
+        Tool(
+            name="add",
+            description="Add two numbers",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "a": {"type": "number"},
+                    "b": {"type": "number"}
+                },
+                "required": ["a", "b"]
+            }
+        )
+    ]
+
+@mcp_server.call_tool()
+async def call_tool(name: str, arguments: dict):
+    """Handle tool calls"""
+    if name == "echo":
+        text = arguments.get("text", "")
+        return [TextContent(type="text", text=f"Echo: {text}")]
     
-    Args:
-        text: Text to echo back
-    """
-    return f"Echo: {text}"
-
-@mcp.tool()
-def add(a: float, b: float) -> str:
-    """Add two numbers
+    elif name == "add":
+        a = arguments.get("a", 0)
+        b = arguments.get("b", 0)
+        result = a + b
+        return [TextContent(type="text", text=f"Result: {result}")]
     
-    Args:
-        a: First number
-        b: Second number
-    """
-    result = a + b
-    return f"Result: {result}"
+    else:
+        return [TextContent(type="text", text=f"Unknown tool: {name}")]
+
+async def handle_sse(request):
+    """Handle SSE connections"""
+    transport = SseServerTransport("/messages")
+    async with transport.connect_sse(request.scope, request.receive, request._send) as streams:
+        await mcp_server.run(
+            streams[0],
+            streams[1],
+            mcp_server.create_initialization_options()
+        )
+
+async def handle_messages(request):
+    """Handle message endpoint"""
+    return Response("MCP SSE Server", media_type="text/plain")
+
+async def health_check(request):
+    """Health check endpoint"""
+    return Response("OK", media_type="text/plain")
+
+# Create Starlette app
+app = Starlette(
+    routes=[
+        Route("/sse", endpoint=handle_sse),
+        Route("/messages", endpoint=handle_messages, methods=["POST"]),
+        Route("/health", endpoint=health_check),
+        Route("/", endpoint=health_check),
+    ]
+)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
-    print(f"Starting MCP SSE Server on port {port}")
-    mcp.run(transport="sse")
+    print(f"Starting MCP SSE Server on 0.0.0.0:{port}")
+    uvicorn.run(app, host="0.0.0.0", port=port)
