@@ -8,7 +8,7 @@ import os
 from fastmcp import FastMCP
 
 # Create FastMCP server instance
-mcp = FastMCP("simple-mcp")
+mcp = FastMCP("simple-mcp-sse")
 
 @mcp.tool()
 def echo(text: str) -> str:
@@ -31,10 +31,6 @@ def add(a: float, b: float) -> str:
     return f"Result: {result}"
 
 if __name__ == "__main__":
-    import uvicorn
     port = int(os.environ.get("PORT", 8000))
     print(f"Starting MCP SSE Server on port {port}")
-    
-    # Get the SSE app from FastMCP
-    app = mcp.get_asgi_app(transport="sse")
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    mcp.run(transport="sse")
