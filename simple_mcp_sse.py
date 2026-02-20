@@ -17,9 +17,11 @@ import uvicorn
 # Create server instance
 mcp_server = Server("simple-mcp-sse")
 
+# Create transport ONCE at module level (not inside the handler)
+transport = SseServerTransport("/messages")
+
 @mcp_server.list_tools()
 async def list_tools():
-    """List available tools"""
     return [
         Tool(
             name="echo",
@@ -51,23 +53,18 @@ async def list_tools():
 
 @mcp_server.call_tool()
 async def call_tool(name: str, arguments: dict):
-    """Handle tool calls"""
     if name == "echo":
         text = arguments.get("text", "")
         return [TextContent(type="text", text=f"Echo: {text}")]
-    
     elif name == "add":
         a = arguments.get("a", 0)
         b = arguments.get("b", 0)
-        result = a + b
-        return [TextContent(type="text", text=f"Result: {result}")]
-    
+        return [TextContent(type="text", text=f"Result: {a + b}")]
     else:
         return [TextContent(type="text", text=f"Unknown tool: {name}")]
 
 async def handle_sse(request):
     """Handle SSE connections"""
-    transport = SseServerTransport("/messages")
     async with transport.connect_sse(request.scope, request.receive, request._send) as streams:
         await mcp_server.run(
             streams[0],
@@ -76,14 +73,12 @@ async def handle_sse(request):
         )
 
 async def handle_messages(request):
-    """Handle message endpoint"""
-    return Response("MCP SSE Server", media_type="text/plain")
+    """Handle message posts from client — THIS IS THE FIX"""
+    await transport.handle_post_message(request.scope, request.receive, request._send)
 
 async def health_check(request):
-    """Health check endpoint"""
     return Response("OK", media_type="text/plain")
 
-# Create Starlette app
 app = Starlette(
     routes=[
         Route("/sse", endpoint=handle_sse),
