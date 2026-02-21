@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Simple MCP Server - SSE Version for Render
@@ -7,6 +8,7 @@ Compatible with remote access
 import os
 import asyncio
 from mcp.server import Server
+from starlette.middleware.cors import CORSMiddleware
 from mcp.types import Tool, TextContent
 from mcp.server.sse import SseServerTransport
 from starlette.applications import Starlette
@@ -81,11 +83,19 @@ async def health_check(request):
 
 app = Starlette(
     routes=[
-        Route("/sse", endpoint=handle_sse),
-        Route("/messages", endpoint=handle_messages, methods=["POST"]),
+        Route("/sse", endpoint=handle_sse,methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]),
+        Route("/messages", endpoint=handle_messages, methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]),
         Route("/health", endpoint=health_check),
         Route("/", endpoint=health_check),
     ]
+)
+# Add CORS middleware 
+app.add_middleware( 
+    CORSMiddleware, 
+    allow_origins=["*"], # Allow all origins 
+    allow_methods=["*"], # Allow all HTTP methods 
+    allow_headers=["*"], # Allow all headers 
+    allow_credentials=True # Allow cookies/auth headers if needed 
 )
 
 if __name__ == "__main__":
